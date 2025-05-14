@@ -1,0 +1,8 @@
+datasets==3.6.0
+openai==1.78.0
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+transformers==4.51.3
+vllm==0.8.4
+anthropic==0.51.0
