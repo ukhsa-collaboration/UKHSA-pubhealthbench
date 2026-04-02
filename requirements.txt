@@ -1,8 +1,10 @@
 datasets==3.6.0
 openai==1.78.0
-torch==2.6.0
+torch==2.10.0
 torchaudio==2.6.0
 torchvision==0.21.0
-transformers==4.51.3
-vllm==0.8.4
+transformers==5.0.0rc3
+vllm==0.14.1
 anthropic==0.51.0
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
+xgrammar>=0.1.21 # not directly required, pinned by Snyk to avoid a vulnerability
